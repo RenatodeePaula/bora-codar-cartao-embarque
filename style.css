@@ -1,8 +1,10 @@
+/* ==========Geral========== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body { 
     display: flex;
     justify-content: center;   
@@ -13,8 +15,6 @@ body {
 }
 
 #pass-container {
-    
-
     background: linear-gradient(167.96deg, #8257E5 0%, #271A45 100%) no-repeat;
     padding: 78px 24px;
     width: 375px;
@@ -23,26 +23,28 @@ body {
    
 }
 
+#pass-container h1 {   
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 20px;  
+    font-weight: 500;    
+}
+
+/* ==========Bilhete========== */
+
 #boarding-pass {
     display: flex;
     align-items: center;
     flex-direction: column;
 
-    border: solid red 1px;
+    border: solid green 1px;
     width: 327px;
     height: 656px;
 }
 
+/* ==========Section 01========== */
 
-#pass-container h1 {
-   
-    font-size: 20px;
-    line-height: 24px;
-    color: white;
-    margin-bottom: 20px;  
-    font-weight: 500;  
-   
-}
 
 #fight-info {
     width: 327px;
@@ -51,17 +53,15 @@ body {
     border-radius: 24px;
     padding: 24px 32px;
 
-    border: solid blue 1px;
-    /* 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;     
-    */
-
-
+    border: solid red 1px;
+   
 }
-#fight-info ul {
+
+ul {
+    list-style: none;
+}
+
+#fight-info ul:nth-child(1) {
     display: flex;
     justify-content: space-between;
     gap: 24px;
@@ -71,28 +71,13 @@ body {
     width: 263px;
     height: 36px;
     list-style: none;
-
-
-
-    /* display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-
-gap: 24px;
-
-
-justify-content: space-between;
-align-items: center;
-padding: 0px;
-gap: 24px;
-
-width: 263px;
-height: 36px; */
+ 
 }
 
+.indice p:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
 
-.voo-data p:nth-child(1) {
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -100,11 +85,11 @@ height: 36px; */
     color: rgba(0, 0, 0, 0.64)
 }
 
-.voo-data p:nth-child(2) {
- 
-    
+.indice  p:nth-child(2) {    
     font-size: 16px;
     line-height: 19px;
+    font-weight: 500;
+    
     
 }
 
