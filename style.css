@@ -3,8 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {    
+body { 
+    display: flex;
+    justify-content: center;   
     padding: 78px;
+    font-family: 'Rubik', sans-serif;
+    background: #1E1E1E;
+    
 }
 
 #pass-container {
@@ -30,11 +35,12 @@ body {
 
 
 #pass-container h1 {
-    font-family: 'Rubik', sans-serif;
+   
     font-size: 20px;
     line-height: 24px;
     color: white;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;  
+    font-weight: 500;  
    
 }
 
@@ -55,14 +61,16 @@ body {
 
 
 }
-#fight-info div {
+#fight-info ul {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    flex-direction: row;
   
     border: solid orange 1px;
     width: 263px;
     height: 36px;
+    list-style: none;
 
 
 
@@ -83,6 +91,27 @@ width: 263px;
 height: 36px; */
 }
 
-#fight-info div p {
-   
+
+.voo-data p:nth-child(1) {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.64)
 }
+
+.voo-data p:nth-child(2) {
+ 
+    
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+
+#data {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
