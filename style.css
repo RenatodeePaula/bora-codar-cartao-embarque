@@ -70,6 +70,19 @@ ul {
     border: solid orange 1px;
     width: 263px;
     height: 36px;
+    list-style: none; 
+}
+
+#fight-info ul:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 57px;
+    flex-direction: row;
+  
+    border: solid orange 1px;
+    width: 263px;
+    height: 36px;
     list-style: none;
  
 }
@@ -77,6 +90,7 @@ ul {
 .indice p:nth-child(1) {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     font-weight: 400;
     font-size: 14px;
@@ -93,10 +107,8 @@ ul {
     
 }
 
-#data {
+#indice-right {
     display: flex;
     flex-direction: column;
     align-items: end;
 }
-
-
