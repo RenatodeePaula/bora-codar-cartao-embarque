@@ -44,15 +44,12 @@ body {
 }
 
 /* ==========Ticket 01========== */
-
-
 #ticket01 {
     width: 327px;
     height: 191px;
     background: #FFFFFF;
     border-radius: 24px;
-    padding: 24px 32px;
-      
+    padding: 24px 32px;      
 }
 
 /* ==========Ticket 01 Header========== */
@@ -109,7 +106,7 @@ body {
 
 #orig {
     width: 103px;
-height: 83px;
+    height: 83px;
 }
 
 #orig-dest img {
@@ -124,10 +121,81 @@ height: 83px;
     align-items: flex-end;   
    
 }
- #orig-dest p:nth-child(3) {  
-    
+
+ #orig-dest p:nth-child(3) {      
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.8);
  }
+
+span {  
+    font-size: 10px;
+    line-height: 12px;
+    position: absolute;    
+ }
+
+ #dest p:nth-child(3) {
+    display:block;
+ }
+
+/* ==========Divider 01========== */
+
+#sublinhado {
+    margin-top: -1px;
+   
+}
+
+/* ==========Tichet 02 Passager========== */
+
+#ticket02 {
+    display: flex;
+    justify-content: space-between;
+    padding:  24px 32px ;
+
+    width: 327px;
+    height: 84px;
+    background: white;
+    border-radius: 24px;
+}
+
+#ticket02 div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+   align-items: flex-end;
+
+}
+
+#ticket02 div p:nth-child(2) {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+
+    color: rgba(0, 0, 0, 0.88);
+}
+
+#ticket03 div {
+    background: white;
+    padding: 24px 32px; 
+    width: 327px;
+    height: 269px;
+    border-radius: 24px;
+}
+
+/* ==========Tichet 02 QR Code========== */
+
+footer {
+    margin-top: 20px;
+    
+    color:white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    opacity: 0.64;
+    
+
+} 
