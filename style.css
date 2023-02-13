@@ -176,7 +176,10 @@ span {
     color: rgba(0, 0, 0, 0.88);
 }
 
-#ticket03 div {
+/* ==========Tichet 03 QR Code========== */
+
+#ticket03  {
+    
     background: white;
     padding: 24px 32px; 
     width: 327px;
@@ -184,7 +187,57 @@ span {
     border-radius: 24px;
 }
 
-/* ==========Tichet 02 QR Code========== */
+
+#boarding-info {
+    list-style: none;
+}
+
+#boarding-info li:nth-child(1) {
+    margin-top: 2px;
+}
+
+#boarding-info li div {
+    width: 54px;
+    height: 27px;
+    padding: 4px 8px;
+
+    background: #633BBC;
+    border-radius: 8px; 
+}
+
+#boarding-info li div p { 
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;   
+
+    color: #FFFFFF;
+    
+}
+
+#boarding-info li:nth-child(2) {
+    margin-top: 16px;
+}
+
+#boarding-info li:nth-child(3) {
+    margin-top: 16px;
+}
+
+#boarding-info li:nth-child(3)  {
+    font-size: 16px;
+    line-height: 19px;       
+  
+    letter-spacing: -0.02em;
+}
+
+
+
+
+
+
+
+
+
+/* ==========Footer========== */
 
 footer {
     margin-top: 20px;
@@ -195,7 +248,6 @@ footer {
     line-height: 24px;
     text-align: center;
     letter-spacing: -0.02em;
-    opacity: 0.64;
-    
+    opacity: 0.64;    
 
 } 
