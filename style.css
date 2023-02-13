@@ -178,8 +178,8 @@ span {
 
 /* ==========Tichet 03 QR Code========== */
 
-#ticket03  {
-    
+#ticket03  {    
+    display: flex;
     background: white;
     padding: 24px 32px; 
     width: 327px;
@@ -189,7 +189,12 @@ span {
 
 
 #boarding-info {
+    border:#633BBC solid 1px;
+    margin-top: 13.5px;
+    margin-bottom: 13.5px;
     list-style: none;
+    width: 95px;
+   
 }
 
 #boarding-info li:nth-child(1) {
@@ -231,8 +236,17 @@ span {
 
 
 
+/* ==========Atenção========== */
 
+.atencao  {
+    font-size: 16px;
+    line-height: 20px;
+    width: 263px;
+    height: 20px;   
 
+    margin-top: 24px;
+    text-align: center;
+}
 
 
 
