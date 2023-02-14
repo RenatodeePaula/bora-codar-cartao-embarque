@@ -187,10 +187,15 @@ span {
     border-radius: 24px;
 }
 
+#ticket03 section {
+     display: flex;
+    
+    border: solid red 1px;
+}
 
 #boarding-info {
-    border:#633BBC solid 1px;
-    margin-top: 13.5px;
+   
+     margin-top: 13.5px;
     margin-bottom: 13.5px;
     list-style: none;
     width: 95px;
@@ -233,9 +238,6 @@ span {
   
     letter-spacing: -0.02em;
 }
-
-
-
 /* ==========Atenção========== */
 
 .atencao  {
@@ -246,6 +248,18 @@ span {
 
     margin-top: 24px;
     text-align: center;
+}
+
+/* ==========QR Code========== */
+
+#qr-code {
+   
+    width: 160px;
+}
+#qr-code p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
 }
 
 
