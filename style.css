@@ -10,16 +10,15 @@ body {
     justify-content: center;   
     padding: 78px;
     font-family: 'Rubik', sans-serif;
-    background: #1E1E1E;
+    
     color: rgba(0, 0, 0, 0.88);
+    background: linear-gradient(167.96deg, #8257E5 0%, #271A45 100%) no-repeat;
     
 }
 
 #pass-container {
-    background: linear-gradient(167.96deg, #8257E5 0%, #271A45 100%) no-repeat;
     padding: 78px 24px;
-    width: 375px;
-    height: 812px;
+  
     border-radius: 32px;
    
 }
@@ -41,6 +40,7 @@ body {
 
     width: 327px;
     height: 656px;
+    
 }
 
 /* ==========Ticket 01========== */
@@ -103,7 +103,6 @@ body {
     letter-spacing: -0.02em;  
     
 }
-
 #orig {
     width: 103px;
     height: 83px;
@@ -189,8 +188,7 @@ span {
 
 #ticket03 section {
      display: flex;
-    
-    border: solid red 1px;
+
 }
 
 #boarding-info {
@@ -252,18 +250,15 @@ span {
 
 /* ==========QR Code========== */
 
-#qr-code {
-   
+#qr-code {   
     width: 160px;
+    color: black;
 }
 #qr-code p {
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
 }
-
-
-
 
 /* ==========Footer========== */
 
