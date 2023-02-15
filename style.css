@@ -9,10 +9,9 @@ body {
     display: flex;
     justify-content: center;   
     height: 100vh;
-    font-family: 'Rubik', sans-serif;
-    
+    font-family: 'Rubik', sans-serif;    
     color: rgba(0, 0, 0, 0.88);
-    background: linear-gradient(167.96deg, #8257E5 0%, #271A45 100%);
+    background: #653cbd;
 }
 
 .top-index {
@@ -292,7 +291,7 @@ footer {
     width: 24px;
     position: absolute;
     height: 24px;
-    background:#6744b4;
+    background: #653cbd;
     
     border-radius: 50%;
     top: 170px;
@@ -304,7 +303,7 @@ footer {
     width: 24px;
     position: absolute;
     height: 24px;
-    background:#6140a8;
+    background: #653cbd;
     border-radius: 50%;
 
     top: 255px;
@@ -316,7 +315,7 @@ footer {
     position: absolute;
     height: 24px;
     width: 24px;
-    background:#653eb9;
+    background: #653cbd;
     border-radius: 50%;
     right: 0;
 
@@ -328,7 +327,7 @@ footer {
     width: 24px;
     position: absolute;
     height: 24px;
-    background:#59408d;
+    background: #653cbd;
     border-radius: 50%;
     right:  0;
 
